@@ -61,7 +61,6 @@
         self.layer.masksToBounds=YES;
     }
     
-    NSLog(@"---------");
     
     CGFloat barWidth=self.width/(points.count*2+1);
     CGFloat radius=barWidth*(self.topCornerRadius >=0 ? self.topCornerRadius : 0.3);
